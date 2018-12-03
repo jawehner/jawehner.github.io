@@ -1,4 +1,7 @@
-body {
-    background: blue;
-    text-align: center;
-}
+@import "variables.css";
+@import "body.css";
+@import "navbar.css";
+@import "header.css";
+@import "about.css";
+@import "contact.css";
+@import "footer.css";
