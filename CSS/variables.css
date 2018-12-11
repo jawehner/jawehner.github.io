@@ -1,8 +1,10 @@
 :root {
     --orange-red: #B63112;
     --brownish-gold: #B67D12;
-    --navy-blue: #173879;
-    --green: #0D833D;
+    --blue-purple: #514C9F;
+    --aqua-green: #9efcf4; 
+    --violet: #8D3C95;
+    --light-blue: rgb(93, 113, 179);
 
     --font-one: 'VT323', monospace;
 }
