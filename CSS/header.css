@@ -4,5 +4,6 @@
     text-align: center;
     text-size-adjust: 100%;
     color: var(--aqua-green);
+    font-family: 'Bungee', cursive;
     font-stretch: extra-expanded;
 }
