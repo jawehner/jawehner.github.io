@@ -4,10 +4,16 @@
     font-family: 'Bungee', cursive;   
 }
 
-#creature-project {
-    
+.creature-project {
+    background-image: url(../Assets/img/creature_project.png);
+    background-size: 25em;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#storefront-project {
-
+.storefront-project {
+    background-image: url(../Assets/img/storefront.png);
+    background-size: 25em;
+    background-repeat: no-repeat;
+    background-position: center;
 }
