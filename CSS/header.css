@@ -2,8 +2,10 @@
     background: url(../Assets/img/stars_horizontal.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
-    text-size-adjust: 100%;
     color: var(--aqua-green);
     font-family: 'Bungee', cursive;
     font-stretch: extra-expanded;
+}
+.lead {
+    font-size: 250%;
 }

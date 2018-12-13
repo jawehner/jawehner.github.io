@@ -1,0 +1,18 @@
+/* #contact {
+    align-content: center;
+    text-align: right;
+    font-size: 50%;
+} */
+.container {
+    align-content: center;
+    text-align: center;
+    font-size: 90%;
+    font-family: 'Bungee', cursive;
+    color: var(--aqua-green);
+    position: relative;
+    margin: auto;
+}
+
+.contact-form {
+    margin: auto;
+}
