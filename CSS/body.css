@@ -1,3 +1,6 @@
 body {
-    background-color: var(--navy-blue)
+    /* background-color: var(--navy-blue) */
+    background: url(../Assets/img/stars_horizontal.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 } 
