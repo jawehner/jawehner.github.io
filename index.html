@@ -1,95 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-    <title>Jeff Wehner</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/main.css">
-</head>
-<body>
-    <!--Navbar-->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Jeff Wehner</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  <title>Jeff Wehner</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+
+  <!--Navbar-->
+
+  <nav class="navbar navbar-light ">
+    <a class="navbar-brand" href="#">Jeff Wehner</a>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#about">About Me</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/in/jeff-wehner-7b9443176/" target="blank">LinkedIn</a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <!--Header-->
+
+  <div class="jumbotron">
+    <h1 class="display-1">Jeff Wehner</h1>
+    <h1>.NET Developer</h1>
+    <br>
+    <p class="lead">My Mission? To Boldly Go Where No Coder Has Gone Before</p>
+    <hr class="my-4">
+    <a class="btn btn-warning btn-lg" href="#contact" role="button">Make First Contact</a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--About Section-->
+
+  <section id="about">
+    <p>About Me</p>
+    <div>
+      <p>This is where I talk about myself. I am very bad at talking about myself.
+        This is simply filler until I figure out what I should put here. </p>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Project Section-->
+
+  <section id="project">
+    <h1>Projects</h1>
+    <br>
+    <br>
+    <div class="creature-project">
+      <br>
+      <a class="btn btn-warning btn-lg" href="https://codepen.io/jawehner/full/ZqZqwN" role="button" target=blank>CSS
+        Creature</a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <br>
+    <br>
+    <div class="storefront-project">
+      <br>
+      <a class="btn btn-warning btn-lg" href="https://jawehner.github.io/static_storefront/" role="button" target=blank>Static
+        Storefront</a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Contact Section-->
+
+  <section id="contact">
+    <div class="container">
+      <h1 class="text-center text-uppercase " href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">Contact
+        Me</h1>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <form action="https://formspree.io/jawehner@gmail.com" method="POST" class="contact-form">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                  data-validation-required-message="Please enter your name" name="name">
+                <p class="help-block text-danger"></p>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type
-            ="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                  data-validation-required-message="Please enter your email" name="_replyto">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                  data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Make it so
+              </button>
+            </div>
           </form>
         </div>
-      </nav> --> -->
-
-      <nav class="navbar navbar-light ">
-        <a class="navbar-brand" href="#">Jeff Wehner</a>
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Menu</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#about">About Me</a>
-              <a href="#project">Projects</a>
-              <a href="#contact">Contact</a>
-              <a href="https://www.linkedin.com/in/jeff-wehner-7b9443176/" target="blank">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-    <!--Header-->
-    <div class="jumbotron">
-        <h1 class="display-1">Jeff Wehner</h1>
-        <h1>.NET Developer</h1>
-        <br>
-        <p class="lead">My Mission? To Boldly Go Where No Coder Has Gone Before</p>
-        <hr class="my-4">
-        <a class="btn btn-warning btn-lg" href="#contact" role="button">Make First Contact</a>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    <!--About Section-->
-    <section id="about">
-      <p>About Me</p>
-      <div>
-      <p>This is where I talk about myself. I am very bad at talking about myself. 
-        This is simply filler until I figure out what I should put here. </p>
-      <!-- <h2>Some say that space is the final frontier. 
-        There is another "final" frontier within our reach in the boundless world of coding.   </h2> -->
-      </div> 
-    </section>
+    </div>
+  </section>
   <br>
   <br>
   <br>
@@ -98,133 +166,22 @@
   <br>
   <br>
   <br>
-    <!--Project Section-->
-    <section  id="project">
-      
-      <h1>Projects</h1>
-      <br>
-      <br>
-      <div class="creature-project">
-        <br>
-        <a  class="btn btn-warning btn-lg" href = "https://codepen.io/jawehner/full/ZqZqwN" role="button" target=blank >CSS Creature</a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
-      <br>
-      <br>
-      <div class="storefront-project">  
-        <br>
-        <a class="btn btn-warning btn-lg" href = "https://jawehner.github.io/static_storefront/" role="button" target=blank >Static Storefront</a>  
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
-    </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <!--Contact Section-->
-    <section id="contact">
-        <div class="container">
-            <h1 class="text-center text-uppercase " href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">Contact Me</h1>
-            <br>
-            <br>
-            <div class="row">
-              <div class="col-lg-1"></div>
-              <div class="col-lg-10">
-              <form action="https://formspree.io/jawehner@gmail.com" method="POST" class="contact-form">
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>Name</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Your Name"
-                      id="name"
-                      required
-                      data-validation-required-message="Please enter your name"
-                      name="name"
-                      >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>Email Address</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Your Email"
-                      id="email"
-                      required
-                      data-validation-required-message="Please enter your email"
-                      name="_replyto"
-                    >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <textarea
-                      class="form-control"
-                      rows="7"
-                      placeholder="Your Message"
-                      id="message"
-                      required
-                      data-validation-required-message="Please leave a message"
-                      name="message"
-                    ></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="text-center">
-                  <div id="success"></div>
-                  <button type="submit" class="btn btn-lg btn-black">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                    Make it so
-                  </button>
-                </div>
-              </form>
-              </div>
-            </div>
-          </div>
-    </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <!--Footer Section-->
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+  <footer></footer>
 
-    <!--Footer Section-->
-    <footer></footer>
-
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./JavaScript/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./JavaScript/main.js"></script>
 </body>
+
 </html>
