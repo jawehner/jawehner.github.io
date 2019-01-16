@@ -9,7 +9,9 @@
     position: relative;
     font-family: 'Roboto Mono', monospace;
     font-size: 3em;
+    font-weight: bolder;
 }
+
 #project-link {
     
 }

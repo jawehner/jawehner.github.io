@@ -4,6 +4,10 @@
     font-family: 'Bungee', cursive;   
 }
 
+h1 {
+    font-size: 4em;
+}
+
 .creature-project {
     background-image: url(../Assets/img/creature_project.png);
     background-size: 25em;
@@ -13,6 +17,13 @@
 
 .storefront-project {
     background-image: url(../Assets/img/storefront.png);
+    background-size: 25em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.starfinder-organizer-project {
+    background-image: url(../Assets/img/starfinder-organizer.png);
     background-size: 25em;
     background-repeat: no-repeat;
     background-position: center;
