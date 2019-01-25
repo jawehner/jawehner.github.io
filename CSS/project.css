@@ -28,3 +28,9 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
 }
+.retro-machines {
+    background-image: url(../Assets/img/retro-machines.png);
+    background-size: 25em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
